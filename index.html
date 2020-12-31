@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=zh-Hant-TW>
     <style>
-        #set{
+        .set{
             color: red;
             text-align: center;
             text-shadow: 1px 1px 6px black;
@@ -12,6 +12,7 @@
         }
         .container{
             display: flex;
+            position: fixed;
         }
         .nav{
             min-width: 140px;
@@ -27,22 +28,39 @@
     </style>
     <head>
         <title>寒冰の網頁架設</title>
+        <link rel="icon" href="ice.jpg">
     </head>
     <body>
-        <h1><div id="set" style="text-align: center">網頁架設學習歷程</div></h1>
+        <h1><div id="0" style="text-align: center" class="set">網頁架設學習歷程</div></h1>
         <div class="container nav main">
-            <p><a>first</a><br>second</p>
-            
+            <p><span style="color:fuchsia;font-size:25px">目錄</span>
+            <br>
+            <a href="#0">首頁</a>
+            <br>
+            <a href="#1">第一步</a>
+            <br>
+            <a href="#2">第二步</a>
+            <br>
+            <a href="#3">第三步</a>
+            <br>
+            <a href="#4">第四步</a>
+            <br>
+            <a href="#5">第五步</a>
+            <br>
+            <a href="#6">第六步</a>
+            <br>
+            <a href="#7">第七步</a>
+            </p>
         </div>
         <h1 style="text-align: center">如何創建一個自己的網站</h1>
         <div class="forp">
-            <p>第一步:<br>建立一個github帳戶</p>
-            <p>第二步:<br>進入頁面後點擊左上角的New</p>
-            <p>第三步:<br>輸入你的網頁網址</p>
-            <p>第四步:<br>創建完後點擊Settings</p>
-            <p>第五步:<br>下拉到GitHub Pages<br>然後點擊Choose a theme</p>
-            <p>第六步:<br>先隨便選一個主題<br>(以後用不到)</p>
-            <p>第七步:<br>把你的網頁內容丟到Add file就成功囉!</p>
+            <span id="1"><p>第一步:<br>建立一個github帳戶</p></span>
+            <span id="2"><p>第二步:<br>進入頁面後點擊左上角的New</p></span>
+            <span id="3"><p>第三步:<br>輸入你的網頁網址</p></span>
+            <span id="4"><p>第四步:<br>創建完後點擊Settings</p></span>
+            <span id="5"><p>第五步:<br>下拉到GitHub Pages<br>然後點擊Choose a theme</p></span>
+            <span id="6"><p>第六步:<br>先隨便選一個主題<br>(以後用不到)</p></span>
+            <span id="7"><p>第七步:<br>把你的網頁內容丟到Add file就成功囉!</p></span>
         </div>
     </body>
 </html> 
